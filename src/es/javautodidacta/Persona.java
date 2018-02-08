@@ -11,9 +11,10 @@ public class Persona {
     private int edad;
     private String nacionalidad;
     
-    public Persona(String nombre, int edad) {
+    public Persona(String nombre, int edad, String nacionalidad) {
         this.nombre = nombre;
         this.edad = edad;
+        this.nacionalidad = nacionalidad;
     }
     
     public String getNombre() {

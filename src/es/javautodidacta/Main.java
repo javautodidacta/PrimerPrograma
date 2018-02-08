@@ -3,8 +3,8 @@ package es.javautodidacta;
 public class Main {
 
     public static void main(String[] args) {
-        Persona miguel = new Persona("Miguel", 32);
-        Persona paco = new Persona("Paco", 45);
+        Persona miguel = new Persona("Miguel", 32, "Español");
+        Persona paco = new Persona("Paco", 45, "Polaco");
     
         quienEsMayor(miguel, paco);
     }
